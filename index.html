@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARDNEWS_dog</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div id="popup_wrap">
+        <div class="bg">
+            <div class="slide">
+                <!-- Swiper -->
+                <div class="swiper cardnews">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/cardnews_dog1.jpg" alt="cardnews">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/cardnews_dog2.jpg" alt="cardnews">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/cardnews_dog3.jpg" alt="cardnews">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/cardnews_dog4.jpg" alt="cardnews">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/cardnews_dog5.jpg" alt="cardnews">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/cardnews_dog6.jpg" alt="cardnews">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".cardnews", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            centeredSlides: true,
+            slideToClickedSlide: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+</body>
+
+</html>
