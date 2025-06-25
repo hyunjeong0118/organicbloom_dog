@@ -73,7 +73,7 @@ body {
     justify-content: center;
     align-items: center;
     /* border-radius: 40px; */
-    filter: drop-shadow(10px 10px 10px rgba(14, 14, 14, 0.8));
+    filter: drop-shadow(10px 10px 10px rgba(159, 159, 159, 0.8));
 }
 
 .swiper-slide img {
